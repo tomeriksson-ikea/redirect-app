@@ -1,7 +1,7 @@
 # Redirect app
 
 ## Assignment
-You are working at a big furniture company called FIKA. The company has a big e-commerce site with thousands of products listed in multiple countries and languages. The site has a problem. Once in a while a product is removed from sale and thus removed from the site. This creates an issue, since the urls pointing to the products are still scattered around the web and still forwarding traffic to the removed pages causing millions of 404 responses. You are therefore tasked with creating a backend service which should redirect requests to other existing pages to not lose this traffic and thus potential sales.
+You are working at a big furniture company called FIKA. The company has a big e-commerce site with thousands of products listed in multiple countries and languages. The site has a problem. Once in a while a product is removed from sale and thus removed from the site. This creates an issue. The urls pointing to the products are still scattered around the web and still forwarding traffic to the removed pages causing millions of 404 responses. You are therefore tasked with creating a backend service which should redirect requests to other existing pages to not lose this traffic and thus potential sales.
 
 ## Requirements
 * The service allows for adding new redirects.
@@ -10,7 +10,8 @@ You are working at a big furniture company called FIKA. The company has a big e-
 ## General information
 
 ### Domain
-* Sometimes url-slugs are changed for SEO purposes, but the ID (the numbers at the end) is always static and never change for a given product.
+* Sometimes a page url-slug (the last segment of the url path, eg. "fika-365-mugg-vit") is changed for SEO purposes.
+* The page ID (the numbers at the end of the url, eg. 20282942) is always static and never change for a given product, even across country and language.
 
 ### Redirects
 There are two types of redirects: Temporary and Permanent. A permanent redirect contains the following fields:
