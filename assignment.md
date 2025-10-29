@@ -11,7 +11,7 @@ You are working at a big furniture company called FIKA. The company has a big e-
 
 ### Domain
 * Sometimes a page url-slug (the last segment of the url path, eg. "fika-365-mugg-vit") is changed for SEO purposes.
-* The page ID (the numbers at the end of the url, eg. 20282942) is always static and never change for a given product, even across country and language.
+* The page ID (the numbers at the end of the url, eg. 20282942) is always static and never change for a given page, even across country and language.
 
 ### Redirects
 There are two types of redirects: Temporary and Permanent. A permanent redirect contains the following fields:
